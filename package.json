@@ -4,7 +4,6 @@
   "description": "Test Api",
   "main": "app.js",
   "scripts": {
-    "postinstall": "npm rebuild bcrypt --build-from-source",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
