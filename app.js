@@ -2,6 +2,7 @@ const express = require('express');
 const authRoutes = require('./routes/authRoutes');
 const godownRoutes = require('./routes/godownRoutes');
 const authenticateToken = require('./middleware/authMiddleware');
+const bcrypt = require('bcryptjs');
 
 const app = express();
 const port = 3000;
